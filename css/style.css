@@ -1,0 +1,373 @@
+* {
+    margin: 0;
+}
+body {
+    margin: 0;
+    background: #fff;
+    font-family: "Open Sans",'sans-serif';
+}
+.wrap-head {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 51px;
+    margin-bottom: 55px;
+}
+.logo {
+    margin-left: 110px ;
+}
+.nav {
+    margin-right: 121px;
+}
+.nav a {
+    text-decoration: none;
+    margin-right: 40px;
+    font-size: 20px;
+    color: #212121 ;
+}
+.info {
+    margin: 0 auto;
+    color: #fff;
+    background-image: url("../img/main-bg.png");
+    background-size: cover;
+}
+.top-info h1,p {
+    text-align: center;
+}
+.top-info h1 {
+    padding-top: 182pt;
+    font-size: 60px;
+}
+.top-info p {
+    margin-top: 28px;
+    font-size: 22px;
+}
+.info-button {
+    padding-top: 110px;
+    padding-bottom: 186px;
+    display: flex;
+    justify-content: center;
+}
+.btn-info {
+    width: 220px;
+    height: 70px;
+    color: #fff;
+    background: transparent;
+}
+.hovr {
+    margin-right: 25px;
+    background: transparent;
+    border: 3px solid #fff;
+}
+.hovr:hover {
+    background: #00897b;
+    border: hidden;
+}
+.about {
+    width: 90%;
+    margin: 0 auto;
+    color: #212121;
+    text-align: center;
+}
+.about h1 {
+    padding-top:125px;
+}
+.about p {
+    margin: 0 auto;
+    padding-top: 41px;
+    width: 620px;
+}
+.about-icons {
+    width: 90%;
+    margin:  0 auto;
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 20px;
+    padding-top: 122px;
+}
+.about-icon h3 {
+    padding-top: 39px;
+}
+.about-icon p {
+    margin: 0 auto;
+    padding-top: 26px;
+    width: 255px;
+    padding-bottom: 127px;
+}
+
+
+.services {
+    background: #e4fdf9;
+}
+.our-service {
+    margin: 0 auto;
+    text-align: center;
+}
+.our-service h1 {
+    padding-top: 175px;
+}
+.our-service p {
+    margin: auto;
+    width: 620px;
+    padding-top: 40px ;
+    padding-bottom: 115px;
+}
+.btn-card {
+    font-size: 20px;
+    width: 151px;
+    height: 55px;
+    background: transparent;
+    color: #000;
+    border: 2px solid #000;
+}
+.cards {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 20px;
+}
+.service-card {
+    margin: 0 auto;
+    margin-bottom: 32px;
+    text-align: center;
+    height: 438px;
+    width: 370px;
+    background: #fff;
+}
+.service-card:hover {
+    color: #fff;
+    background: #00897b;
+    box-shadow: 4px 5px 5px #000;
+    transform: translateY(-4px);
+}
+.btn-card:hover {
+    color: #fff;
+    background: #00897b;
+    border: 2px solid #fff;
+    cursor: pointer;
+}
+.service-card:nth-last-child(-n+3) {
+    margin-bottom: 118px;
+}
+.service-card img {
+    padding-top: 60px;
+}
+.service-card h3 {
+    padding-top: 37px;
+}
+.service-card p {
+    margin: auto;
+    width: 270px ;
+    padding-bottom: 50px;
+}
+
+
+
+.works {
+    background: #fff;
+}
+.our-work {
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+}
+.our-work h1 {
+    padding-top: 132px;
+}
+.our-work p {
+    margin: auto;
+    width: 620px;
+    padding-top: 38px;
+}
+.work-btn {
+    text-align: center;
+}
+.w-btn {
+    margin-top: 114px;
+    height: 55px;
+    background: transparent;
+    font-size: 20px;
+    border: 3px solid #00897b;
+    margin-bottom: 119px;
+}
+.w-btn:not(last-child){
+    margin-right: 22px ;
+}
+.w-btn:hover {
+    background: #00897b;
+    color: #fff;
+}
+.work-posts {
+    width: 90%;
+    display: grid;
+    padding: 4px 4px;
+    margin: 0 auto;
+    grid-template-columns: auto auto auto;
+}
+.post-pad:nth-last-child(n+3) {
+    margin-bottom: 30px;
+}
+.post-pad:nth-last-child(-n+3) {
+    margin-bottom: 135px;
+}
+
+
+.team {
+    background: #f0f1f1;
+}
+.team-text {
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+}
+.team-text {
+    margin: auto;
+    width: 625px;
+    padding-top: 128px;
+}
+.team-text p {
+    padding-top: 33px;
+    padding-bottom: 130px;
+}
+
+.team-cards {
+    width: 90%;
+    display: grid;
+    padding:4px 4px;
+    margin: 0 auto;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    padding-bottom: 125px ;
+}
+.team-cards h3 {
+    padding-top: 35px;
+}
+.team-cards p {
+    padding-top: 15px;
+}
+.team-img {
+    margin-top: 33px ;
+}
+.team-img:not(last-child) {
+    margin-right: 22px;
+}
+
+
+.blog {
+    padding-bottom: 160px;
+    background: #e4fdf9;
+}
+.blog-text {
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+}
+.blog-text h1 {
+    padding-top: 125px;
+}
+.blog-text p {
+    padding-top: 33px;
+    padding-bottom: 130px;
+    width: 615px;
+    margin:auto;
+}
+
+.blog-one {
+    margin-left: 117px;
+    width: 80%;
+    display: flex;
+}
+.text-lft {
+    padding-top: 65px ;
+    margin-left: 33px;
+}
+.text-lft p {
+    text-align: left;
+    padding-top: 70px;
+}
+
+.blog-two {
+    margin-left: 245px;
+    width: 80%;
+    display: flex;
+}
+
+.text-rgt {
+    text-align: right;
+    padding-top:65px;
+    margin-right: 33px;
+}
+.text-rgt p {
+    text-align: right;
+    padding-top:70px;
+}
+
+.contact {
+    color: #fff;
+    background: url("../img/contact-bg.png");
+}
+
+.contact-text {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top:131px;
+}
+.contact-text p {
+    padding-top: 40px;
+    width: 615px;
+    margin: auto;
+}
+.contact-cards {
+    padding-top: 95px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.c-card p {
+    padding-top: 40px;
+}
+
+.inputs {
+    border: hidden;
+    height: 40px;
+    width: 250px;
+    border-radius: 8px 9px;
+}
+.inputs:first-child {
+    margin-right: 5px;
+}
+.areas {
+    border: hidden;
+    width: 505px;
+    height: 160px;
+    border-radius: 8px 9px;
+}
+.form {
+    padding-top:150px;
+    display: flex;
+    justify-content: center;
+}
+.area {
+
+    padding-top:20px;
+    display: flex;
+    justify-content: center;
+}
+.button {
+    padding-top: 40px;
+    padding-left:320px;
+    display: flex;
+    justify-content: center;
+    padding-bottom:110px;
+}
+.btn {
+    border: hidden;
+    background: #fff;
+    border-radius: 8px 9px;
+    height: 40px;
+    width: 180px;
+}
+footer {
+    padding: 25px 0;
+    text-align: center;
+}

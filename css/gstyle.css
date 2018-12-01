@@ -1,0 +1,28 @@
+.jira {
+    background: #00897b;
+}
+.guide-jira ul {
+    list-style-type: none;
+    text-align: center;
+}
+.guide-jira p {
+    padding: 40px 0;
+    width: 60%;
+    margin: auto;
+}
+.guide-jira img {
+    padding: 15px 0;
+}
+
+.guide-git {
+    width: 80%;
+    margin: auto;
+    padding: 40px 0;
+}
+.guide-git p {
+    text-align: justify;
+}
+.guide-git li {
+    list-style-type: none;
+    padding: 15px 0;
+}
